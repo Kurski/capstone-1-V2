@@ -1,0 +1,186 @@
+
+.head{
+    height: 700px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: 
+    url(images/runner.jpeg);
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Caveat', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+
+.intro h3{
+    margin: 8px;
+    display: block;
+    width: 200px;
+}
+
+img{
+    margin: 20px 8px;
+    height: 174px;
+    max-width: 250px;
+    min-width: 45%;
+
+}
+
+.run div {
+    height: 155px;
+}
+
+.developper div{
+    height: 175px;
+}
+.foot{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    text-align: center;
+    margin: 0;
+    background-color: cadetblue;
+    
+}
+
+.foot a {
+    width: 80px;
+    margin: 10px;
+    
+}
+.touch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.touch p {
+    min-width: 400px;
+    max-width: 666px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro p {
+    min-width: 400px;
+    max-width: 666px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content p {
+    max-width:400px;
+    min-width: 45%;
+    text-align: left;
+    line-height: 30px;
+    margin: 0px;
+}
+
+hr{
+    border: dotted black 6px;
+    width: 4%;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-color: whitesmoke;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.run {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    text-align: left;
+}
+
+.developper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-width: 400px;
+
+}
+
+.X {
+    color: rgb(48, 77, 96);
+    text-decoration: none;
+}
+.X:hover{
+    color: whitesmoke;
+}
+
+.Link {
+    color: rgb(48, 77, 96);
+    text-decoration: none;
+}
+.Link:hover{
+    color: whitesmoke;
+}
+
+.Indeed {
+    color: rgb(48, 77, 96);
+    text-decoration: none;
+}
+.Indeed:hover{
+    color: whitesmoke;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    background-color: cadetblue;
+    border-radius: 8%;
+    color: whitesmoke;
+    border-color: cadetblue;
+    border-width: 0px;
+}
+
+button:hover {
+    background-color: rgb(114, 184, 187);
+}
